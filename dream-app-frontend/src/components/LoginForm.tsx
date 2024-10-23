@@ -21,7 +21,7 @@ const LoginForm: React.FC = () => {
             console.log(response.data);
             navigate('/my-dreams');
         } catch (err) {
-            setError('ユーザー名またはパスワードが間違っています');
+            setError('ユーザー名またはパスワードが間違っています!');
         }
     };
 
